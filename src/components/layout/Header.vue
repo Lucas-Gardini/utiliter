@@ -24,7 +24,11 @@ const theme = useTheme();
 
 		<v-spacer></v-spacer>
 
-		<button @click="$emit('toggleTheme')">tema</button>
+		<v-btn
+			:icon="theme.global.current.value.dark ? 'mdi-weather-sunny' : 'mdi-weather-night'"
+			:color="theme.global.current.value.dark ? 'amber lighten-3' : 'indigo lighten-3'"
+			@click="$emit('toggleTheme')"
+		/>
 	</v-app-bar>
 </template>
 

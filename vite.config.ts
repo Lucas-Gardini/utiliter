@@ -16,6 +16,7 @@ export default defineConfig({
 			"@pages": "/src/pages",
 			"@plugins": "/src/plugins",
 			"@utils": "/src/utils",
+			"@types": "/src/@types",
 		},
 	},
 });

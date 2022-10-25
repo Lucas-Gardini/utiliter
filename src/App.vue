@@ -14,7 +14,7 @@ const toggleTheme = () =>
 const openDrawer = () => (isOpen.value = !isOpen.value);
 </script>
 <template>
-	<v-app>
+	<v-app style="width: 100%">
 		<v-main>
 			<Header
 				:isOpen="isOpen"
