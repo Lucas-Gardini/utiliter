@@ -23,7 +23,6 @@ const theme = useTheme();
 		</button>
 
 		<v-spacer></v-spacer>
-
 		<v-btn
 			:icon="theme.global.current.value.dark ? 'mdi-weather-sunny' : 'mdi-weather-night'"
 			:color="theme.global.current.value.dark ? 'amber lighten-3' : 'indigo lighten-3'"
