@@ -19,7 +19,7 @@ export const routes = [
 ];
 
 export default createRouter({
-	//history: createWebHistory(),
+	history: createWebHistory(),
 	// a copy without the DIVIDERS
 	routes: routes.filter((route) => route.path !== "DIVIDER"),
 });
